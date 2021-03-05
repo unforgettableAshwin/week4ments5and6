@@ -7,7 +7,6 @@ import java.nio.file.Paths;
 
 public class WordCount extends ConsoleProgram
 {
-	private static final long serialVersionUID = 1L;
 
 	public void run()
 	{
@@ -54,4 +53,6 @@ public class WordCount extends ConsoleProgram
 	int countWords;
 
 	private static final String FILE_NAME = "countMe.txt";
+	
+	private static final long serialVersionUID = 1L;
 }
